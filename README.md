@@ -2,12 +2,12 @@
 Simple Python code to extract data for selected locations from multiple NetCDF files downloaded from Cordex (https://cordex.org/) website
 
 Required Packages:
-glob2
-netCDF4
-numpy
-pandas
-DateTime
-art
+1) glob2
+2) netCDF4
+3) numpy
+4) pandas
+5) DateTime
+6) art
 
 How to run the code:
 1) Put the Stations.csv, downloaded Cordex NetCDF files for which data should be extracted and extract_CordexNetCDF.py files in same folder.
