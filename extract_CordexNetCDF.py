@@ -53,7 +53,7 @@ for index,row in Stations.iterrows():
     location = row['Stations']
     rlati = row['rlati']
     rlong = row['rlong']
-    tprint("Player " + location + " Ready!", font = "straight")
+    tprint("Player " + location + " Ready!", font = "amc3line")
     aprint("random")
     for n in range(0,len_loop,2):
     #Reading the data
@@ -96,6 +96,6 @@ for index,row in Stations.iterrows():
     #Path to save csv file to 
     csv_name = location + '_' + vals_name + '_' + model_name + '_' + year_start + '_'+ year_end + '.csv'
     df.to_csv(csv_name )    
-    tprint("Player " + location + " Down!", font = "straight")
+    tprint("Player " + location + " Down!", font = "amc3line")
 #Print end of program
 tprint("GAME OVER!", font="rnd-small")             
